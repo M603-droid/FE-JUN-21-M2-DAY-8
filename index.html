@@ -21,14 +21,14 @@
         .column-1{
             height: 400px;
             background-color: green !important;
+            display:flex;
             
-            justify-content: center;
             text-align: center;
             border-top-left-radius: 20px;
             border-bottom-left-radius: 20px;
             border: 2px solid black;
             color: white;
-            padding: 15px;
+            
         }
         .column-2{
             background-color: blue;
@@ -114,19 +114,19 @@
           <p class="text-muted text-center justify-content-center">Recreate this table using Bootstrap4  </p></div>
 
           <div class="row align-items-center">
-              <div class="col-6 column-1 bg-dark d-flex align-items-center justify-content-center"> 
+              <div class="col-6 column-1 bg-dark align-items-center justify-content-center"> 
              first column
              Height 400px;
              Greenish-background
              Text centered
             </div>
-            <div class="col-2 column-2 bg-dark d-flex align-items-end justify-content-end"> 
-                second column
+            <div class="col-2 column-2 bg-dark align-items-end justify-content-end"> 
+               <p class="mb-4"> second column
                 Text to the bottom
                 blue-ish-background
-                
+                </p>
                </div>
-               <div class="col-4 column-3  d-flex container-fluid"> 
+               <div class="col-4 column-3 container-fluid"> 
                <div class="row h-100">
                    <div class="col-12 first-part align-items-center justify-content-center">Third column part 1</div>
                    <div class="col-12 second-part align-items-center justify-content-center">Third column part 2</div>
@@ -197,7 +197,7 @@
           <p class="text-muted text-center justify-content-center">And this could be the video part of exercise!Here you can add all the video contents  </p>
 
           <div class="row">
-              <div class="col-4"><div class="card" style="width: 18rem;">
+              <div class="col-4"><div class="card" style="width: 18rem;"></div>
                 <img class="card-img-top" src="images/download.jpg" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
